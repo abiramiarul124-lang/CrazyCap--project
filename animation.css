@@ -1,0 +1,243 @@
+.sticky-item {
+  top: 0;
+  animation: hide linear forwards;
+  animation-timeline: scroll();
+  animation-range: 0 1400px;
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.anim {
+  position: relative;
+  z-index: 5;
+  /* height: 500vh; */
+}
+
+/* Sticky Bottle */
+.center {
+  position: sticky;
+  top: 0;
+
+  /* height: 100vh; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+
+/* Bottle Animation */
+.bottle-cap {
+  animation: bottle-scroll linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+.water-2 {
+  animation: water-animation linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  /* will-change: transform; */
+}
+.cap {
+  transform-origin: bottom center;
+
+  animation: capOpen linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+}
+.bottle-info {
+  /* transform-origin: bottom center; */
+
+  animation: bottleDetail linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+}
+
+.bottel-boder {
+  animation: borderGrow linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+}
+
+/* Main Animation */
+@keyframes bottle-scroll {
+  0% {
+    transform: rotate(0deg) translateY(-500px);
+  }
+  15% {
+    transform: rotate(0deg) translateY(400px);
+  }
+  25% {
+    transform: rotate(0deg) translateY(600px);
+  }
+
+  50% {
+    transform: rotate(0deg) translateY(400px);
+  }
+
+  65% {
+    transform: rotate(45deg) translateX(400px) translateY(-300px);
+  }
+  75% {
+    transform: rotate(0deg) translateX(0px) translateY(300px);
+  }
+  80% {
+    transform: rotate(0deg) translateX(0px) translateY(0px);
+  }
+  85% {
+    transform: rotate(30deg) translateX(100px) translateY(100px);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes capOpen {
+  /* Closed */
+  0% {
+    transform: translateY(0px);
+  }
+  15% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-300px);
+  }
+  25% {
+    transform: translateY(-500px);
+  }
+  27% {
+    transform: translateY(-550px);
+  }
+  30% {
+    transform: translateY(-600px);
+  }
+  /* Open */
+  35% {
+    transform: translateY(-400px);
+  }
+  40% {
+    transform: translateY(-80px);
+  }
+  50% {
+    transform: translateY(-60px);
+  }
+  /* Close Back */
+  80% {
+    transform: translateY(-60px);
+  }
+
+  /* Stay Closed Forever */
+  100% {
+    transform: translateY(-60px);
+  }
+}
+@keyframes bottleDetail {
+  0% {
+    opacity: 0;
+  }
+
+  2% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* Circle Growing */
+
+@keyframes borderGrow {
+  0% {
+    transform: scale(1) translateY(-150px);
+  }
+  25% {
+    transform: scale(1) translateY(-100px);
+  }
+  30% {
+    transform: scale(1.7) translateY(-150px);
+    opacity: 1;
+  }
+  40% {
+    transform: scale(1) translateY(-50px);
+    opacity: 0;
+  }
+
+  55% {
+    transform: scale(0) translateY(-200px);
+  }
+  60% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@keyframes water-animation {
+  0% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 0;
+  }
+  88% {
+    transform: translateX(100px);
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    /* transform: translateX(200px); */
+  }
+}
