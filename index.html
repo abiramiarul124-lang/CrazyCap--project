@@ -7,6 +7,7 @@
     <title> CRAZY CAP</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./animation.css">
+    <link rel="stylesheet" href="./mobile-style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,9 +31,12 @@
     <section class="sec1 sticky-item" id="secc">
         <div class="navbar">
             <div class="compay-name">
-                <img src="./LOGO.png" alt="">
+                <img src="./LOGO.png" alt="" />
                 <div>CrazyCap</div>
             </div>
+            <button id="menuIcon" class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </button>
             <div class="navbar1">
                 <span>Home </span>
                 <span>About </span>
@@ -53,11 +57,15 @@
         <div class="center">
             <div class="bottle-cap">
                 <div class="bottel-boder">
-                    <div class="center bottle-info" style="flex-direction: column;text-align: center;">
-                        <div style="font-size: 60px;width: 150%;text-align: center;">Safe drinking water in 60 seconds
+                    <div class="center bottle-info " style="flex-direction: column;text-align: center;">
+                        <div
+                            style="font-size: 50px;font-weight: 600; width: 150%;text-align: center;margin-top: -30px;">
+                            Safe drinking
+                            water in 60 seconds
                         </div>
-                        <span>Purifies any source water • Sterilizes your sport bottles</span>
-                        <button class="but2">shop now</button>
+                        <span style="font-size: 20px;font-weight: 400;width: 650px;">Purifies any source water •
+                            Sterilizes your sport bottles</span>
+                        <button class="but-top">shop now</button>
                     </div>
                 </div>
                 <div class="cap">
@@ -97,16 +105,16 @@
                 <div>
                     <img src="./boy.png" alt="">
                 </div>
-                <div class="text ">
-                    <div>
+                <div class="text t1">
+                    <div class="">
                         <i class="fa-regular fa-circle-check" style="color: rgba(72, 230, 220, 1);font-size: 50px;"></i>
                         <div>Integrated <br>Deep UV LED</div>
                     </div>
-                    <div>
+                    <div class="">
                         <i class="fa-regular fa-circle-check" style="color: rgba(72, 230, 220, 1);font-size: 50px;"></i>
                         <div>Cap measures <br> just 2” tall</div>
                     </div>
-                    <div>
+                    <div class="">
                         <i class="fa-regular fa-circle-check" style="color: rgba(72, 230, 220, 1);font-size: 50px;"></i>
                         <div>Fits most <br> reusable bottles</div>
                     </div>
@@ -116,15 +124,15 @@
         <section class="sec4">
             <div class="box">
                 <div class="text2">
-                    <div>
+                    <div class="t2">
                         <i class="fa-regular fa-circle-check" style="color: rgba(72, 230, 220, 1);font-size: 50px;"></i>
                         <div>Rechargeable <br> on-the-go</div>
                     </div>
-                    <div>
+                    <div class="t2">
                         <i class="fa-regular fa-circle-check" style="color: rgba(72, 230, 220, 1);font-size: 50px;"></i>
                         <div>5% of sales to <br> water.org</div>
                     </div>
-                    <button class="but2">Shop Now</button>
+                    <button class="but2 t2">Shop Now</button>
                 </div>
                 <div class="img-c">
                     <img src="./hand.png" alt="">
@@ -175,7 +183,7 @@
     </section>
     <section class="sec7">
         <div class="girll">
-            <div>
+            <div class="gri1">
                 <div class="clean">
                     We believe <br> clean drinking <br> water is a right, <br> not a privilege.
                 </div>
@@ -193,7 +201,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="gri2">
                 <img class="girl" src="./girl.png" alt="">
             </div>
 
@@ -208,9 +216,9 @@
                 outright for <br> the purest tasting water.</div>
         </div>
         <div class="imgss">
-            <img style="width: 304px;height: 460px;" src="./imgg1.png" alt="">
+            <img class="gri1" style="width: 304px;height: 460px;" src="./imgg1.png" alt="">
             <img src="./imgg2.png" alt="">
-            <img src="./imgg3.png" alt="">
+            <img class="gri1" src="./imgg3.png" alt="">
             <img src="./imgg4.png" alt="">
             <!-- <div style="border: 2px solid gray;height: 458px;width: 100px;background-color: #D9D9D9;"></div> -->
         </div>
@@ -219,16 +227,16 @@
         <div class="bg-img">
             <div class="world paar2">
                 <div class="drink1">
-                    <div class="explore">Explore the world?</div>
+                    <div class="explore gri2">Explore the world?</div>
                     <div class="drink">Drink It <br>All In</div>
                 </div>
             </div>
-            <div class="immg">
+            <div class="immg t2">
                 <img style="width: 478px;height: 629px;" src="./hand-bottel.png" alt="">
             </div>
         </div>
 
-        <div class="bg">
+        <div class="bg" style="z-index: 100;">
             <div class="para2">
                 <div>No filters to replace. No batteries to lose.</div>
                 <div style="margin-top: 10px;">Just a maintenance-free solution designed to perform.</div>
@@ -242,25 +250,34 @@
     </section>
     <section class="sec10">
         <div class="bots">
-            <img class="bot1" src="./bot1.png" alt="">
-            <img class="bot2" src="./bot2.png" alt="">
-            <img class="bot3" src="./bot3.png" alt="">
-            <img class="bot4" src="./bot4.png" alt="">
+            <div class="gri1">
+                <img class="bot1 gri1" src="./bot1.png" alt="">
+            </div>
+            <div class="t2">
+                <img class="bot2" src="./bot2.png" alt="">
+            </div>
+            <div class="">
+                <img class="bot3" src="./bot3.png" alt="">
+            </div>
+            <div class="gri1">
+                <img class="bot4" src="./bot4.png" alt="">
+            </div>
             <div class="fits">Yes it’s fits <br>your favourite <br>bottle</div>
         </div>
     </section>
     <section class="sec11">
         <div class="CrazyCapp">
-            <div class="beautifully paris">CrazyCap pairs <br> beautifully with our <br> original bottle.</div>
-            <div class="most">Already have one you love? We designed it to fit most <br> 9-, 12-, 17-, and 21-ounce
+            <div class="beautifully paris t2">CrazyCap pairs <br> beautifully with our <br> original bottle.</div>
+            <div class="most t1">Already have one you love? We designed it to fit most <br> 9-, 12-, 17-, and 21-ounce
                 cola-style bottles.</div>
-            <button class="see">See why</button>
+            <button class="see gri1">See why</button>
         </div>
     </section>
+    <div class="s4">.</div>
     <section class="sec12">
-        <div class="Reviews">Expert Reviews</div>
+        <div class="Reviews t1">Expert Reviews</div>
         <div class="best">
-            <div>
+            <div class="s1">
                 <div class="best1 bestt">Best overall self- <br>cleaning water <br> bottle</div>
                 <div class="think">I think the best thing about CrazyCap is that you can buy just the cap, which
                     fits on
@@ -269,7 +286,7 @@
                     water bottles</div>
                 <div class="full">Full Review</div>
             </div>
-            <div>
+            <div class="s2">
                 <div class="best1 bestt">Best overall self- <br>cleaning water <br> bottle</div>
                 <div class="think">I think the best thing about CrazyCap is that you can buy just the cap, which
                     fits on
@@ -279,7 +296,7 @@
                     bottles</div>
                 <div class="full">Full Review</div>
             </div>
-            <div>
+            <div class="s3">
                 <div class="best1 bestt">Best overall self- <br>cleaning water <br> bottle</div>
                 <div class="think">I think the best thing about CrazyCap is that you can buy just the cap, which
                     fits on
@@ -295,36 +312,42 @@
             <div class="crazy">@crazycapbottle</div>
         </div>
         <div class="caaan">
-            <img class="caan1" src="./caan1.png" alt="">
-            <img class="caan1" src="./caan2.png" alt="">
-            <img class="caan1" src="./caan3.png" alt="">
-            <img class="caan1" src="./caan4.png" alt="">
+            <div>
+                <div class="center">
+                    <img class="caan1 big1" src="./caan1.png" alt="">
+                </div>
+            </div>
+            <div> <img class="caan1 big2" src="./caan2.png" alt=""></div>
+            <div> <img class="caan1 big3" src="./caan3.png" alt=""></div>
+            <div> <img class="caan1 big4" src="./caan4.png" alt="">
+            </div>
         </div>
 
     </section>
     <section class="sec14">
         <div class="stay">
-            <div class="stay1">Let’s stay connected</div>
-            <div style="position: relative;"> <input placeholder="crazycapbotle @gmail.com" type="text">
+            <div class="stay1 zoom-out">Let’s stay connected</div>
+            <div class="gri11" style="position: relative;"> <input placeholder="crazycapbotle @gmail.com" type="text">
                 <button class="Subscribe">Subscribe</button>
             </div>
         </div>
     </section>
     <section class="sec15">
         <div class="footer">
-            <div class="compay-name1">
-                <img src="./LOGO.png" alt="">
+            <div class="compay-name1 ">
+                <img class="zoom-out" src="./LOGO.png" alt="">
                 <div>CrazyCap</div>
             </div>
             <div class="brand">
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-square-youtube"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter bottem-top1"></i>
+                <i class="fa-brands fa-square-youtube bottem-top2"></i>
+                <i class="fa-brands fa-linkedin bottem-top3"></i>
+                <i class="fa-brands fa-instagram bottem-top4"></i>
+                <i class="fa-brands fa-square-facebook bottem-top5"></i>
             </div>
         </div>
     </section>
+    <script src="./script.js"></script>
 
 </body>
 

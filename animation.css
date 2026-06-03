@@ -241,3 +241,347 @@
     /* transform: translateX(200px); */
   }
 }
+.t1 {
+  animation: text-move-right linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes text-move-right {
+  0% {
+    transform: translateX(500px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+.t2 {
+  animation: text-move-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes text-move-left {
+  0% {
+    transform: translateX(-500px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+.gri1 {
+  animation: gri1-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes gri1-left {
+  0% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.gri2 {
+  animation: gir2-right linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes gir2-right {
+  0% {
+    transform: translateX(500px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+
+.s1 {
+  animation: s1-top linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes s1-top {
+  0% {
+    transform: translateY(400px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.s2 {
+  animation: s2-top linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes s2-top {
+  0% {
+    transform: translateY(600px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.s3 {
+  animation: s3-top linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 100%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes s3-top {
+  0% {
+    transform: translateY(800px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.s4 {
+  background-color: rgba(232, 46, 39, 0.46);
+  transform-origin: bottom;
+  animation: s3-large linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+  animation-fill-mode: both;
+}
+
+@keyframes s3-large {
+  from {
+    transform: scaleY(10);
+  }
+  to {
+    transform: scaleY(0.3);
+  }
+}
+.big1 {
+  transform-origin: bottom;
+  animation: big1-ani linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+  animation-fill-mode: both;
+}
+@keyframes big1-ani {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.big2 {
+  transform-origin: right;
+  animation: big2-ani linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+  animation-fill-mode: both;
+}
+@keyframes big2-ani {
+  from {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.big3 {
+  transform-origin: left;
+  animation: big3-ani linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+  animation-fill-mode: both;
+}
+@keyframes big3-ani {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.big4 {
+  transform-origin: top;
+  animation: big4-ani linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+  animation-fill-mode: both;
+}
+@keyframes big4-ani {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.gri11 {
+  animation: gri11-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 150%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes gri11-left {
+  0% {
+    transform: translateY(900px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.zoom-out {
+  animation: zoom-out-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 150%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes zoom-out-left {
+  0% {
+    transform: scale(5);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+.bottem-top1 {
+  animation: bottem-top1-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 150%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes bottem-top1-left {
+  0% {
+    transform: translateY(400px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+.bottem-top2 {
+  animation: bottem-top2-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 150%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes bottem-top2-left {
+  0% {
+    transform: translateY(700px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+.bottem-top3 {
+  animation: bottem-top3-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 150%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes bottem-top3-left {
+  0% {
+    transform: translateY(1000px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+.bottem-top4 {
+  animation: bottem-top4-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 150%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes bottem-top4-left {
+  0% {
+    transform: translateY(1400px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
+.bottem-top5 {
+  animation: bottem-top5-left linear;
+
+  animation-timeline: view();
+
+  animation-range: entry 0% cover 150%;
+
+  animation-fill-mode: both;
+
+  will-change: transform;
+}
+@keyframes bottem-top5-left {
+  0% {
+    transform: translateY(1600px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+}
