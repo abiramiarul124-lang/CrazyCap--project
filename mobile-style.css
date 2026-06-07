@@ -16,9 +16,26 @@
     cursor: pointer;
   }
   .sticky-item {
-    z-index: 1000;
+    z-index: 1000;margin-top: 20px;
   }
-
+  .caaan{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.caan1{
+  height: 180px;
+  width: 180px;
+}
+.deep1{
+  margin-top: -60px;
+}
+.clean{
+  margin-top: -100px;
+}
+.explore{
+  margin-top: -300px;
+}
   .navbar1 {
     position: fixed;
     top: 100px;
@@ -52,3 +69,350 @@
     background-color: white;
   }
 }
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .cap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar {
+    margin: 15px;
+  }
+
+  .compay-name {
+    font-size: 20px;
+  }
+
+  .center {
+    position: relative;
+  }
+
+  .bottle-cap {
+    width: 180px;
+    transform: none;
+  }
+
+  .bottel-boder {
+    width: 220px;
+    height: 220px;
+    top: -20px;
+    display: none;
+  }
+
+  .cap {
+    right: 155px;
+    top: 70px;
+    width: 50px;
+  }
+
+  .sec3,
+  .sec4,
+  .sec7,
+  .stay {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .box {
+    grid-template-columns: 1fr;
+  }
+
+  .text,
+  .text2 {
+    font-size: 22px;
+    gap: 30px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+  }
+  .text2 {
+    margin-top: -20px;
+  }
+
+  .Science,
+  .clean,
+  .right,
+  .beautifully,
+  .pocket {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .drink {
+    font-size: 60px;
+    padding-left: 0;
+  }
+  .bottle-info {
+    display: none;
+  }
+  .para2 {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .img-c,
+  .girl {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .boder1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .but3 {
+    width: 90%;
+    left: 5%;
+    top: auto;
+    bottom: -200px;
+  }
+
+  .but3 > input {
+    width: 45%;
+  }
+
+  .but3 > button {
+    width: 45%;
+    left: auto;
+    right: 2px;
+  }
+
+  .girll {
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .immg {
+    position: static;
+    transform: none;
+    width: 100%;
+  }
+
+  .explore {
+    position: static;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .bu1,
+  .bu2,
+  .but2,
+  .see,
+  .but7 {
+    width: 90%;
+  }
+
+  .bots {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bot1,
+  .bot2,
+  .bot3,
+  .bot4 {
+    width: 220px;
+    height: auto;
+    margin: 0;
+  }
+
+  .fits {
+    font-size: 40px;
+  }
+
+  .best {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .best1 {
+    font-size: 25px;
+  }
+
+  .think {
+    width: 100%;
+    text-align: center;
+  }
+
+  .caaan {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .caan1 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .stay {
+    gap: 30px;
+    text-align: center;
+  }
+
+  .stay1 {
+    font-size: 30px;
+  }
+
+  div input {
+    width: 100%;
+    height: 80px;
+    padding-left: 20px;
+  }
+
+  .Subscribe {
+    position: static !important;
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .sec6 {
+    margin-top: 250px;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .compay-name1,
+  .brand {
+    margin: 0;
+  }
+  .but1 {
+    margin-left: -200px;
+  }
+  .but2 {
+    width: 200px;
+  }
+  .boder1 {
+    position: absolute;
+    right: 90px;
+    top: 280px;
+  }
+  .Science {
+    margin-top: -150px;
+    margin-left: 120px;
+  }
+  .but2 {
+    width: 210px;
+    height: 50px;
+  }
+  .img-c {
+    margin-top: 60px;
+  }
+  .paraa {
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+  .pocket {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 768px) {
+    .sec2,
+    .sec5,
+    .sec6,
+    .sec7,
+    .sec8,
+    .sec9,
+    .sec10,
+    .sec11,
+    .sec12,
+    .sec13,
+    .sec14,
+    .sec15 {
+      height: auto;
+      min-height: auto;
+    }
+  }
+  @media (max-width: 991px) {
+    .sticky-item,
+    .bottle-cap,
+    .t1,
+    .t2,
+    .gri1,
+    .gri2,
+    .s1,
+    .s2,
+    .s3,
+    .s4,
+    .big1,
+    .big2,
+    .big3,
+    .big4,
+    .gri11,
+    .zoom-out,
+    .bottem-top1,
+    .bottem-top2,
+    .bottem-top3,
+    .bottem-top4,
+    .bottem-top5 {
+      animation: none !important;
+      transform: none !important;
+    }
+
+    .center {
+      position: relative;
+    }
+  }
+  .hand-bottel1{
+    margin-top: -480px;
+
+  }
+  .imgss{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+  }
+  .beautifully{
+  margin-top: 60px;
+}
+.see{
+  margin-top: 30px;
+  width: 200px;
+}
+.s4{
+  margin-top: 20px;
+}
+.fits{
+  font-size: 60px;
+}
+.full{
+  text-align: center;
+}
+.caa2{
+  display: none;
+}
+.cap{
+width: 130px;
+height: 50px;
+}
+.caa{
+  margin-left: 247px;
+  margin-top: 67px;
+}
+.bottle-cap{
+  margin-top: 100px;
+}
+  
+}
+
