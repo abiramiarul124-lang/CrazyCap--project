@@ -16,31 +16,32 @@
     cursor: pointer;
   }
   .sticky-item {
-    z-index: 1000;margin-top: 20px;
+    z-index: 1000;
+    margin-top: 20px;
   }
-  .caaan{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.caan1{
-  height: 180px;
-  width: 180px;
-}
-.deep1{
-  margin-top: -60px;
-}
-.clean{
-  margin-top: -100px;
-}
-.explore{
-  margin-top: -300px;
-}
+  .caaan {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .caan1 {
+    height: 180px;
+    width: 180px;
+  }
+  .deep1 {
+    margin-top: -60px;
+  }
+  .clean {
+    margin-top: -100px;
+  }
+  .explore {
+    margin-top: -300px;
+  }
   .navbar1 {
     position: fixed;
     top: 100px;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background: white;
     display: flex;
     flex-direction: column;
@@ -172,9 +173,9 @@
 
   .but3 {
     width: 90%;
-    left: 5%;
+    left: 30px;
     top: auto;
-    bottom: -200px;
+    bottom: -258px;
   }
 
   .but3 > input {
@@ -282,7 +283,7 @@
     margin-top: 15px;
   }
   .sec6 {
-    margin-top: 250px;
+    margin-top: 275px;
   }
 
   .footer {
@@ -304,12 +305,12 @@
   }
   .boder1 {
     position: absolute;
-    right: 90px;
+    right: 16px;
     top: 280px;
   }
   .Science {
-    margin-top: -150px;
-    margin-left: 120px;
+    margin-top: -85px;
+    margin-left: 6px;
   }
   .but2 {
     width: 210px;
@@ -319,11 +320,19 @@
     margin-top: 60px;
   }
   .paraa {
-    margin-left: 120px;
+    margin-left: 27px;
     margin-top: 20px;
   }
   .pocket {
     margin-top: 50px;
+  }
+  .can1{
+    margin-left: -71px;
+  }
+  .can2{
+    right: 38px;
+    margin-top: 30px;
+
   }
 
   @media (max-width: 768px) {
@@ -373,46 +382,50 @@
       position: relative;
     }
   }
-  .hand-bottel1{
+  .hand-bottel1 {
     margin-top: -480px;
-
   }
-  .imgss{
+  .imgss {
     height: 250px;
     width: 250px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 50px;
   }
-  .beautifully{
-  margin-top: 60px;
+  .beautifully {
+    margin-top: 60px;
+  }
+  .see {
+    margin-top: 30px;
+    width: 200px;
+  }
+  .s4 {
+    margin-top: 20px;
+  }
+  .fits {
+    font-size: 60px;
+  }
+  .full {
+    text-align: center;
+  }
+  .caa2 {
+    display: none;
+  }
+  .cap {
+    width: 130px;
+    height: 50px;
+  }
+  .caa {
+    margin-left: 247px;
+    margin-top: 67px;
+  }
+  .bottle-cap {
+    margin-top: 100px;
+  }
+  #secc {
+    position: absolute;
+  }
+  .sec8{
+    height: 270vh;
+  }
 }
-.see{
-  margin-top: 30px;
-  width: 200px;
-}
-.s4{
-  margin-top: 20px;
-}
-.fits{
-  font-size: 60px;
-}
-.full{
-  text-align: center;
-}
-.caa2{
-  display: none;
-}
-.cap{
-width: 130px;
-height: 50px;
-}
-.caa{
-  margin-left: 247px;
-  margin-top: 67px;
-}
-.bottle-cap{
-  margin-top: 100px;
-}
-  
-}
-
